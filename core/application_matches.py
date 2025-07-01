@@ -78,4 +78,6 @@ and app.exe: powershell.exe
 
 apps.vim = """
 win.title:/VIM/
+win.title:/vim/
+and app.bundle: com.googlecode.iterm2
 """

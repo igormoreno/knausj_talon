@@ -76,6 +76,7 @@ git remote remove: "git remote remove "
 git remote show origin: "git remote show origin\n"
 git show: "git show "
 git stash pop: "git stash pop\n"
+git stash clear: "git stash clear\n"
 git stash: "git stash\n"
 git stash push: user.insert_between("git stash push -m '", "'")
 git stash apply: "git stash apply\n"

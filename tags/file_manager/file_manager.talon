@@ -15,9 +15,9 @@ go forward: user.file_manager_go_forward()
     user.file_manager_open_directory(file_manager_directories)
 ^(select | cell) folder {user.file_manager_directories}$:
     user.file_manager_select_directory(file_manager_directories)
-^open <number_small>$:
-    file = user.file_manager_get_file_by_index(number_small - 1)
-    user.file_manager_open_file(file)
+#^open <number_small>$:
+#    file = user.file_manager_get_file_by_index(number_small - 1)
+#    user.file_manager_open_file(file)
 ^folder numb <number_small>$:
     directory = user.file_manager_get_directory_by_index(number_small - 1)
     user.file_manager_select_directory(directory)

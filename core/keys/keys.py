@@ -1,6 +1,6 @@
 from talon import Context, Module, actions, app
 
-default_alphabet = "air bat cap drum each fox golf harp sit jury kilo look mike near odd pit quench red sun trap urge Vick whale plex yank zip".split(
+default_alphabet = "air bat chip drum each fox golf harp sit jury kilo look mike near odd pit quench red sun trap urge Vick whale plex why zip".split(
     " "
 )
 letters_string = "abcdefghijklmnopqrstuvwxyz"
@@ -113,6 +113,7 @@ modifier_keys = {
     "alt": "alt",  #'alter': 'alt',
     "control": "ctrl",  #'troll':   'ctrl',
     "shift": "shift",  #'sky':     'shift',
+    "cap": "shift",  #'sky':     'shift',
     "super": "super",
 }
 if app.platform == "mac":
